@@ -9,5 +9,11 @@ body {
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 4rem;
+}
+
+.container-kelas {
+  background-color: #428fa0;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
