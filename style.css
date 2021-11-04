@@ -12,8 +12,6 @@ section {
   padding-top: 4rem;
 }
 
-.container-kelas {
+#kelas {
   background-color: #428fa0;
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
