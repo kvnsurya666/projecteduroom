@@ -17,5 +17,6 @@ section {
 }
 
 #login {
-  background-color: #428fa0;
+  min-height: 600px;
+  margin-top: 5rem;
 }
