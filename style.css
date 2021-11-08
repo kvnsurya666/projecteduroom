@@ -17,6 +17,11 @@ section {
 }
 
 #login {
-  min-height: 600px;
+  min-height: 550px;
+  margin-top: 5rem;
+}
+
+#register {
+  min-height: 550px;
   margin-top: 5rem;
 }
