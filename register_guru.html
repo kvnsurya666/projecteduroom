@@ -50,23 +50,72 @@
     <section id="register-guru">
       <div class="container">
         <div class="row text-center text-white">
-          <div class="col-sm-6 text-center" style="background-color: #428fa0">
-            <h3 class="mb-3">Create Account</h3>
-            <div class="form-floating mb-3 text-primary">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-              <label for="floatingInput">E-mail</label>
+          <div class="col-sm-6 text-start" style="background-color: #428fa0; max-width: 100%; height: auto">
+            <h3 class="mb-3">Buat Akun Guru</h3>
+            <div class="row mb-3">
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="NIP" aria-label="NIP" />
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="Nama" aria-label="Nama" />
+              </div>
+              <div class="col-4">
+                <input type="email" class="form-control" placeholder="E-mail" aria-label="Email" />
+              </div>
             </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
-              <label class="form-check-label" for="inlineRadio1">Guru</label>
+            <div class="row mb-3">
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="Tempat Lahir" aria-label="Tempat Lahir" />
+              </div>
+              <div class="col-4">
+                <input type="date" class="form-control" placeholder="Tanggal Lahir" aria-label="Tanggal Lahir" />
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="No.Telp" aria-label="NoTelp" />
+              </div>
             </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-              <label class="form-check-label" for="inlineRadio2">Siswa</label>
+            <div class="row mb-3">
+              <div class="col-4">
+                <input type="password" class="form-control" placeholder="Password" aria-label="Password" />
+              </div>
+              <div class="col-4">
+                <input type="password" class="form-control" placeholder="Konfirmasi Password" aria-label="Konfirmasi Password" />
+              </div>
+              <div class="col-4">
+                <select class="form-select" aria-label="Jenis Kelamin">
+                  <option selected>Jenis Kelamin</option>
+                  <option value="1">Laki-laki</option>
+                  <option value="2">Perempuan</option>
+                  <option value="3">Waria</option>
+                </select>
+              </div>
             </div>
-            <br />
-            <br />
-            <input class="btn btn-light text-dark mb-3" type="submit" href="register_guru.html" value="Next" />
+            <div class="row mb-3">
+              <div class="col">
+                <textarea class="form-control" placeholder="Alamat"></textarea>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <select class="form-select" aria-label="Jenis Kelamin">
+                  <option selected>Pendidikan Terakhir</option>
+                  <option value="1">Strata Satu (S1)</option>
+                  <option value="2">Strata Dua (S2)</option>
+                  <option value="3">Strata Tiga (S3)</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="Tempat Lahir" aria-label="Tempat Lahir" />
+              </div>
+              <div class="col-4">
+                <input type="date" class="form-control" placeholder="Tanggal Lahir" aria-label="Tanggal Lahir" />
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="No.Telp" aria-label="NoTelp" />
+              </div>
+            </div>
           </div>
           <div class="col-sm-6" style="background-color: white">
             <img src="img/logo eduroom full.png" alt="Logo EduRoom besar" width="300" height="300" />
