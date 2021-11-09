@@ -31,3 +31,23 @@ section {
   min-height: 550px;
   margin-top: 5rem;
 }
+
+.explained {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  line-height: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.text-content {
+  width: 400px;
+  font-size: 14px;
+}
