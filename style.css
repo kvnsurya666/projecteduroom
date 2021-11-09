@@ -27,11 +27,6 @@ section {
   margin-top: 5rem;
 }
 
-#register-guru {
-  min-height: 600px;
-  margin-top: 5rem;
-}
-
 .explained {
   height: 120px;
   display: flex;
