@@ -4,6 +4,22 @@
   background-color: #428fa0;
 }
 
+.container img {
+  background-size: contain;
+}
+
+.rounded-image {
+  object-fit:  cover;
+  border-radius: 50%;
+  box-shadow: 25px 25px 5px 0px #428fa0;
+  -webkit-box-shadow: 25px 25px 5px 0px #428fa0;
+  -moz-box-shadow: 25px 25px 5px 0px #428fa0;
+  margin-bottom:40px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
 section {
   padding-top: 5rem;
 }
