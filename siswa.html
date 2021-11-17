@@ -14,7 +14,7 @@
 
     <title>EduRoom</title>
   </head>
-  <body id="beranda">
+  <body id="siswa">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
       <div class="container">
@@ -50,15 +50,34 @@
     </nav>
     <!-- Akhir Navbar -->
 
-    <!-- Searchbar -->
-    <div class="container-siswa" style="background-color: #428fa0; min-height: 1000px">
-      <div class="row text-center">
-        <div class="col">
-          <h2>GURU</h2>
+    <!-- Container-satu -->
+    <div class="container-fluid" style="background-color: #428fa0; min-height: 1000px">
+      <div class="container p-5">
+        <div class="row p-4 mb-2 text-center text-white">
+          <div class="col">
+            <h2>GURU</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" />
+              <button class="btn btn-outline-white btn-dark text-white" type="button" id="button_cari">Cari</button>
+            </div>
+          </div>
+          <div class="col-sm-1">
+            <button class="btn btn-dark" type="button" id="button_kelas">Kelas</button>
+          </div>
+          <div class="col-sm-1">
+            <button class="btn btn-dark" type="button" id="button_abjad">Abjad</button>
+          </div>
+          <div class="col-sm-2">
+            <button type="button" class="btn btn-dark" type="button" id="button_mapel">Mapel</button>
+          </div>
         </div>
       </div>
     </div>
-    <!-- End Searchbar -->
+    <!-- End Container-satu -->
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center p-2">
