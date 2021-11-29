@@ -47,8 +47,8 @@ section {
   background-color: honeydew;
   color: black;
   font-family: sans-serif;
-  width: 1120px;
-  height: 450px;
+  width: max-content;
+  height: max-content;
   font-size: 14px;
   padding: 30px;
   position: absolute;
